@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+
+<body>
+    <div class="container">
+        <div class="cards">
+            <h1>Basic Model Example</h1>
+            <button class="btn" onclick="openModal()">Open Model</button>
+        </div>
+    </div>
+
+    <div id="Modal" class="modal">
+       <div class="modal-text">
+            <span id="closeSpan">X</span>
+            <h3>Modal Header</h3>
+            <hr>
+            <p>Some text. Some text. Some text.</p>
+            <hr>
+            <button onclick="closeModal()" class="closeModal">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js">  </script>
+</body>
+
+</html>
